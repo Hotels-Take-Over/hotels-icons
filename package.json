@@ -1,0 +1,17 @@
+{
+  "name": "hotels-icons",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "icons"
+  ],
+  "scripts": {
+    "build:web": "svgr --icon --out-dir dist/web icons",
+    "build:native": "cp -r icons dist/native"
+  },
+  "devDependencies": {
+    "@svgr/cli": "^8.0.0"
+  }
+}
