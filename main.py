@@ -15,7 +15,7 @@ SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 
 # ========= CONFIG =========
 HUGEICONS_API_URL = "https://hugeicons.com/api/icons"
-ICON_STYLE_SUFFIX = "solid-rounded"  # matches your downloaded files
+ICON_STYLE_SUFFIX = "stroke-rounded"  # matches your downloaded files
 ICON_VERSION = "1.0.1"  # not actually needed now, just kept for reference
 OUTPUT_DIR = "icons"  # local folder where SVGs already exist
 SUPABASE_TABLE = "icon_vectors"  # supabase table name
